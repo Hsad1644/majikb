@@ -11,8 +11,8 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/listings" component={Listings} />
+          <Route exact path="/" component={Home} />
+          <Route path="/listings" component={Listings} />
         </Routes>
       </Router>
       <Listings />
