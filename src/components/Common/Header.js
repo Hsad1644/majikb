@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,9 +13,9 @@ const Header = () => {
         <h1 className="title">MagicBricks</h1>
       </div>
       <div className="right-side">
-        {/* <Link to="/">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/listings">Listings</Link>
-        <Link to="/contact">Contact</Link> */}
+        <Link to="/contact">Contact</Link>
       </div>
     </header>
   );
