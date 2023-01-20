@@ -1,6 +1,6 @@
 import "./styles.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/Common/Header";
+import Footer from "./components/Common/Footer";
 
 export default function App() {
   return (
