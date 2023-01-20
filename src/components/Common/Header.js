@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/header.css";
 import { Link } from "react-router-dom";
 
 const Header = (props) => {
   return (
-    <header>
+    <div className="head-bar">
       <div className="left-side">
         <img
           src={"https://picsum.photos/160?grayscale"}
@@ -16,7 +17,7 @@ const Header = (props) => {
         <Link to="/">Home</Link>
         <Link to="/listings">Listings</Link>
       </div>
-    </header>
+    </div>
   );
 };
 
