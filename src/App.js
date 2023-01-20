@@ -8,8 +8,9 @@ import Listings from "./components/Pages/Listings";
 export default function App() {
   return (
     <div className="App">
+      <Header />
+
       <Router>
-        <Header />
         <Route path="/" exact component={Home} />
         <Route path="/listings" component={Listings} />
       </Router>
