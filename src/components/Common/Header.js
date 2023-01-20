@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { withRouter } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
       <div className="left-side">
@@ -11,7 +10,7 @@ const Header = () => {
           alt="Logo"
           className="logo"
         />
-        <h1 className="title">MagicBricks</h1>
+        <h1 className="title">MajikBric</h1>
       </div>
       <div className="right-side">
         <Link to="/">Home</Link>
@@ -21,4 +20,4 @@ const Header = () => {
   );
 };
 
-export default withRouter(Header);
+export default Header;
