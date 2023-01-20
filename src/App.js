@@ -15,6 +15,7 @@ export default function App() {
         <Route path="/listings" component={Listings} />
         </Routes>
       </Router>
+      <Listings />
     </div>
   );
 }
