@@ -10,8 +10,8 @@ export default function App() {
     <div className="App">
       <Router>
         <Header />
-        <Route exact path="/" component={Home} />
-        <Route path="/listings" component={Listings} />
+        {/* <Route exact path="/" component={Home} />
+        <Route path="/listings" component={Listings} /> */}
       </Router>
     </div>
   );
