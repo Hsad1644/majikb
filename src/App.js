@@ -4,7 +4,6 @@ import Header from "./components/Common/Header";
 import Footer from "./components/Common/Footer";
 import Home from "./components/Pages/Home";
 import Listings from "./components/Pages/Listings";
-import Contact from "./components/Pages/Contact";
 
 export default function App() {
   return (
@@ -13,7 +12,6 @@ export default function App() {
         <Header />
         <Route path="/" exact component={Home} />
         <Route path="/listings" component={Listings} />
-        <Route path="/contact" component={Contact} />
       </Router>
     </div>
   );
